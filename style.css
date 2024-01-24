@@ -1,0 +1,93 @@
+img{
+    width:100px;
+    height: 100px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-shadow: 2px 2px black;
+}
+.img2{animation:rotate 3s infinite;}
+@keyframes rotate{
+    0%{transform:rotate(0deg);}   
+    100%{transform:rotate(360deg);}
+}
+
+.img3{animation:pulse 2s infinite;}
+@keyframes pulse{
+    0% ,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+.img4{animation: slidein 2s infinite;}
+@keyframes slidein{
+    0%{transform: translatex(-50%);}
+    50%{transform: translateX(0);}
+    100%{transform: translateX(50%);}
+}
+.img5{animation: fadein 3s infinite;}
+@keyframes fadein{
+    0%{opacity: 0;}
+    50%{opacity: 5;}
+    100%{opacity: 0}
+}
+.img6{animation: bounce 3s infinite;}
+@keyframes bounce{
+    0%{transform: translatey(0);}
+    40%{transform: translatey(-20px);}
+    60%{transform: translatey(-10px);}
+    }
+.img7{
+    width: 80px;
+    height: 80px;   
+}
+.img8{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.img9{ width: 100px;
+    height: 100px;
+    
+}
+#d1 {
+  width: 80px;
+  height: 60px;
+  background-color: yellow;
+  border: 5px double black;
+  margin: 30px;
+}
+.fa{
+    padding:20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center
+    margin:5px 2px;
+    border-radius: 50%;
+    text-decoration: none;   
+}
+.fa:hover{
+    opacity: 0.8;
+    background:green; 
+}
+.fa-facebook{
+    background: blue;
+    color: white;    
+}
+.fa-instagram{
+    background-color: coral;
+    color:white;  
+}
+.fa-youtube{
+    background-color: red;
+    color: white;
+}
+.fa-whatsapp{
+    background-color: limegreen;
+    color:white;
+}
+.fa-google{
+    background-color: orangered;
+    color:white;
+}
